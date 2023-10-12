@@ -1,0 +1,31 @@
+LinearEquation class
+
+Instance variables:
+    private String point1 - represents the first coordinate point
+    private String point2 - represents the second coordinate point
+    public double m - represents the slope of the equation
+    public double b - represents the y-intercept of the equation
+    private String equation - represents the slope intercept form of the equation
+    private double dis - represents the distance between the 2 coordinate points
+
+Constructor
+    public LinearEquation(String p1, String p2) - this is where all the calculations before the third x value takes place
+
+Methods
+    public String toString()
+        Displays all the information before the third x value which includes:
+            Both coordinate points
+            The slope
+            The y-intercept
+            The slope intercept form equation
+            The distance between the 2 coordinate points
+
+EquationRunner.java
+1. Asks the user for the first coordinate point.
+2. "Parses" our both the x and y value of the first coordinate point.
+3. Asks the user for the second coordinate point.
+4. "Parses" our both the x and y value of the second coordinate point.
+5. Creates the new LinearEquation.
+6. Prints out all of the LinearEquation's information.
+7. Asks the user for a third x value.
+8. Uses the previously parsed x and y values with the new x value to calculate the new y value and display the new point created.
